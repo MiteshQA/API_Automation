@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<classes>
+  		<class name="com.testing.test.testscripts.TestCase01_Postrequest"/>
+  		<class name="com.testing.test.testscripts.TestCase02_GetAllrequest"/>
+  		<class name="com.testing.test.testscripts.TestCase03_GetParticularrequest"/>
+  		<class name="com.testing.test.testscripts.TestCase04_DeleteParticularrequest"/>
+  		<class name="com.testing.test.testscripts.TestCase05_PutParticularrequest"/>
+  		<class name="com.testing.test.testscripts.TestCase06_Patchrequest"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
